@@ -14,7 +14,7 @@ const twitter = require('twitter');
 const requireSpotify = require('node-spotify-api');
 
 // require keys JS
-const keys = require('./keys.js');
+const keys = require('./key.js');
 
 // reference to API Keys
 let spotify = new requireSpotify(keys.spotify);
